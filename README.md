@@ -19,6 +19,10 @@
 
 ## Text Processing Level 2:
 ### Bag-Of-Words and Binary Bag-Of-Words
--   
+- It converts the sentences into the vector representations, as the machine understands the numeric values.
+- In Bag-Of-words and Binary Bag-Of-Words, The histogram of corpus is calculated and sorted to descending order.
+- Binary Bag-Of-Words uses 1/0 in vector representation if the word is present in sentence or not.
+- Bag-Of-Words approach uses the frequency of the word in vector representation. 
 ### TF-IDF
+- 
 ### Word2Vec
