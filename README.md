@@ -24,6 +24,8 @@
 - Binary Bag-Of-Words uses 1/0 in vector representation if the word is present in sentence or not.
 - Bag-Of-Words approach uses the frequency of the word in vector representation.
 - The problem with these approach is they weighs all words the same weight.
-### TF-IDF
-- 
+### Term Frequency - Inverse Document Frequency (TF-IDF)
+- Term Frequency = No of repeatation of the word / No of words in a sentence
+- Inverse Document Frequency = log( No of sentences / No of sentences containing the word )
+- The vector is calculated as TF*IDF for each word present ad rest are zeros. 
 ### Word2Vec
