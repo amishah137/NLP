@@ -18,4 +18,7 @@
 ### Stop words
 
 ## Text Processing Level 2:
-### 
+### Bag-Of-Words and Binary Bag-Of-Words
+-   
+### TF-IDF
+### Word2Vec
