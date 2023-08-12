@@ -22,7 +22,8 @@
 - It converts the sentences into the vector representations, as the machine understands the numeric values.
 - In Bag-Of-words and Binary Bag-Of-Words, The histogram of corpus is calculated and sorted to descending order.
 - Binary Bag-Of-Words uses 1/0 in vector representation if the word is present in sentence or not.
-- Bag-Of-Words approach uses the frequency of the word in vector representation. 
+- Bag-Of-Words approach uses the frequency of the word in vector representation.
+- The problem with these approach is they weighs all words the same weight.
 ### TF-IDF
 - 
 ### Word2Vec
