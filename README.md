@@ -27,5 +27,10 @@
 ### Term Frequency - Inverse Document Frequency (TF-IDF)
 - Term Frequency = No of repeatation of the word / No of words in a sentence
 - Inverse Document Frequency = log( No of sentences / No of sentences containing the word )
-- The vector is calculated as TF*IDF for each word present ad rest are zeros. 
+- The vector is calculated as TF*IDF for each word present ad rest are zeros.
 ### Word2Vec
+- Drabacks of previous methods
+  - In both BOW and TF-IDF, semantic information is not stored. TF-IDF gives importance to uncommon words.
+  - There is definitly chance of overfitting.
+- In this specific model, each word is basically represented as a vector of 32 or more dimension instead of a single number.
+- Here, the semantic information and relation between different words is also preserved.
